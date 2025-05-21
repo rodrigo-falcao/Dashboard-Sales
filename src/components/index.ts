@@ -1,6 +1,7 @@
 export { default as AvatarList } from './AvatarList.tsx'
 export { default as FormComponent } from './FormComponent.tsx'
 export { default as Header } from './Header.tsx'
+export { default as CustomTable } from './CustomTable.tsx'
 export * from './BannerImage.tsx'
 export * from './CardComponent.tsx'
 export * from './Logo.tsx'
