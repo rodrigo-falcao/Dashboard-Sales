@@ -1,6 +1,7 @@
 export { default as FormComponent } from './FormComponent.tsx'
+export { default as Header } from './Header.tsx'
 export * from './BannerImage.tsx'
+export * from './Logo.tsx'
 export * from './StyledButtonComp.tsx'
 export * from './StyledInput.tsx'
 export * from './Typographies.tsx'
-export * from './Logo.tsx'
