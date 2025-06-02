@@ -1,8 +1,8 @@
 import { createContext, useState, useEffect } from 'react'
-import type { ReactNode } from 'react'
-import { ThemeProvider } from 'styled-components'
 import { lightTheme, darkTheme } from '@/styles/theme'
+import { ThemeProvider } from 'styled-components'
 import type { AppThemeContextProps } from '@/types'
+import type { ReactNode } from 'react'
 
 export const AppThemeContext = createContext<AppThemeContextProps | undefined>(
     undefined
