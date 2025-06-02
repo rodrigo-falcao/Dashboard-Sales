@@ -1,17 +1,36 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import {
+    BrowserRouter as Router,
+    Routes,
+    Route,
+    Navigate,
+    Outlet,
+} from 'react-router-dom'
+import { Login, Registration, Home, Leads, Profile } from './pages'
+import Cookies from 'js-cookie'
 
 function App() {
-  return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<h1>Login</h1>} />
-        <Route path="/cadastro" element={<h1>Cadastro</h1>} />
-        <Route path="/home" element={<h1>Home</h1>} />
-        <Route path="/leads" element={<h1>Leads</h1>} />
-        <Route path="/perfil" element={<h1>Perfil</h1>} />
-      </Routes>
-    </Router>
-  )
+    const ProtectedRoute = () => {
+        const checkAuthCookie = Cookies.get('Authorization')
+        if (!checkAuthCookie) {
+            alert('Autenticação necessária!')
+            return <Navigate to="/" replace />
+        }
+        return <Outlet />
+    }
+
+    return (
+        <Router>
+            <Routes>
+                <Route path="/" element={<Login />} />
+                <Route path="/cadastro" element={<Registration />} />
+                <Route element={<ProtectedRoute />}>
+                    <Route path="/home" element={<Home />} />
+                    <Route path="/leads" element={<Leads />} />
+                    <Route path="/perfil" element={<Profile />} />
+                </Route>
+            </Routes>
+        </Router>
+    )
 }
 
 export default App
