@@ -1,0 +1,14 @@
+# echo 'Commit test init'
+
+# # Prettier 
+# echo 'Running Prettier...'
+# npm run format 
+
+# #Lint
+# echo 'Runnning Lint...'
+# npm run lint
+
+# #Units tests 
+# echo 'Running Unit Tests...'
+# npm run test
+
