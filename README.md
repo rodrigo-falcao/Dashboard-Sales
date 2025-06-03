@@ -58,6 +58,10 @@ Para verificar e testar as APIs do backend, utilizamos o **Postman** como ferram
 - **Prettier:** Formatador de código.
 - **Husky:** Ferramenta para configurar hooks de Git.
 
+🔹 Projeto criado para aprendizado e prática! 🚀 Sinta-se à vontade para contribuir ou sugerir melhorias. 😊
+
 ## 📸 Screenshots
 
-🔹 Projeto criado para aprendizado e prática! 🚀 Sinta-se à vontade para contribuir ou sugerir melhorias. 😊
+![image](https://github.com/user-attachments/assets/109d63b8-d184-4a94-8c83-8bb52b655de8)
+
+
