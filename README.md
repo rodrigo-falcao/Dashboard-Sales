@@ -10,7 +10,7 @@ Este projeto é um Dashboard desenvolvido com React, utilizando TypeScript e div
 
 ## 🌍 Acesso ao Projeto
 
-🔗 [Clique aqui para acessar](dashboard-sales-gules.vercel.app)
+🔗 [Clique aqui para acessar](https://dashboard-sales-gules.vercel.app/)
 
 ## 🛠️ Tecnologias Utilizadas
 
