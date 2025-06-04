@@ -8,6 +8,10 @@
 
 Este projeto é um Dashboard desenvolvido com React, utilizando TypeScript e diversas bibliotecas modernas para criar uma interface dinâmica e funcional. Ele inclui suporte para testes unitários e end-to-end (E2E), além de ferramentas para garantir a qualidade do código e a escalabilidade.
 
+## 🌍 Acesso ao Projeto
+
+🔗 [Clique aqui para acessar](dashboard-sales-gules.vercel.app)
+
 ## 🛠️ Tecnologias Utilizadas
 
 - **React:** Biblioteca para construção de interfaces de usuário.
