@@ -1,5 +1,6 @@
 # 🚀Dashboard Sales
 
+![Status](https://img.shields.io/badge/Status-Finalizado-brightgreen)
 ![React](https://img.shields.io/badge/React-18.2.0-blue?logo=react)
 ![Vite](https://img.shields.io/badge/Vite-5.2.0-646CFF?logo=vite)
 ![ESLint](https://img.shields.io/badge/ESLint-enabled-4B32C3?logo=eslint)
@@ -10,6 +11,7 @@
 ![Postman](https://img.shields.io/badge/Postman-API%20Test-FF6C37?logo=postman)
 ![Husky](https://img.shields.io/badge/Husky-git%20hooks-8C52FF?logo=git)
 ![License](https://img.shields.io/badge/license-MIT-green)
+![GitHub](https://img.shields.io/badge/GitHub-Repo-181717?logo=github)
 
 Este projeto é um Dashboard desenvolvido com React, utilizando TypeScript e diversas bibliotecas modernas para criar uma interface dinâmica e funcional. Ele inclui suporte para testes unitários e end-to-end (E2E), além de ferramentas para garantir a qualidade do código e a escalabilidade.
 
