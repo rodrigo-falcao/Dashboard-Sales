@@ -1,10 +1,15 @@
 # 🚀Dashboard Sales
 
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=FFD62E)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![SCSS](https://img.shields.io/badge/SCSS-CC6699?style=for-the-badge&logo=sass&logoColor=white)
-![Status](https://img.shields.io/badge/Status-Finalizado-brightgreen?style=for-the-badge)
+![React](https://img.shields.io/badge/React-18.2.0-blue?logo=react)
+![Vite](https://img.shields.io/badge/Vite-5.2.0-646CFF?logo=vite)
+![ESLint](https://img.shields.io/badge/ESLint-enabled-4B32C3?logo=eslint)
+![Prettier](https://img.shields.io/badge/Prettier-enabled-F7B93E?logo=prettier)
+![JWT](https://img.shields.io/badge/JWT-authentication-000000?logo=jsonwebtokens)
+![Jest](https://img.shields.io/badge/Jest-tested-C21325?logo=jest)
+![Cypress](https://img.shields.io/badge/Cypress-E2E-17202C?logo=cypress)
+![Postman](https://img.shields.io/badge/Postman-API%20Test-FF6C37?logo=postman)
+![Husky](https://img.shields.io/badge/Husky-git%20hooks-8C52FF?logo=git)
+![License](https://img.shields.io/badge/license-MIT-green)
 
 Este projeto é um Dashboard desenvolvido com React, utilizando TypeScript e diversas bibliotecas modernas para criar uma interface dinâmica e funcional. Ele inclui suporte para testes unitários e end-to-end (E2E), além de ferramentas para garantir a qualidade do código e a escalabilidade.
 
